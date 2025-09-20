@@ -32,21 +32,82 @@
   font-style: normal;
 }
 
-footer {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-between;
-    gap: 0.75rem;
-    padding: 1.25rem 2rem;
-    min-height: 64px;
-    width: 100%;
-    background: linear-gradient(180deg, rgba(15,18,20,0.95), rgba(6,8,10,0.98));
-    color: #e6eef8;
-    font-size: 0.95rem;
-    line-height: 1.4;
-    border-top: 1px solid rgba(255,255,255,0.04);
-    box-shadow: 0 -6px 18px rgba(0,0,0,0.6);
-    position: relative;
-    z-index: 10;
+.footer1 {
+    .footer1 {
+        position: fixed;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        z-index: 50;
+
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        gap: 12px;
+
+        padding: 12px 20px;
+        background: linear-gradient(180deg, rgba(20,20,20,0.95), rgba(10,10,10,0.98));
+        color: #f5f7fa;
+        font-size: 14px;
+        box-shadow: 0 -6px 18px rgba(0,0,0,0.45);
+        border-top: 1px solid rgba(255,255,255,0.03);
+    }
+
+    /* Left / right groups inside footer */
+    .footer1 .left,
+    .footer1 .right {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+    }
+
+    /* Links inside the footer */
+    .footer1 a {
+        color: inherit;
+        text-decoration: none;
+        opacity: 0.9;
+        transition: opacity 0.15s ease, transform 0.12s ease;
+        font-weight: 500;
+    }
+
+    .footer1 a:hover,
+    .footer1 a:focus {
+        opacity: 1;
+        transform: translateY(-1px);
+        text-decoration: underline;
+    }
+
+    /* Small supporting text */
+    .footer1 .muted {
+        font-size: 13px;
+        opacity: 0.75;
+    }
+
+    /* Optional small logo/icon */
+    .footer1 .logo {
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+        font-weight: 600;
+    }
+
+    /* Responsive: stack items on small screens */
+    @media (max-width: 640px) {
+        .footer1 {
+            position: static;
+            padding: 16px;
+            border-radius: 8px;
+        }
+
+        .footer1 .left,
+        .footer1 .right {
+            width: 100%;
+            justify-content: center;
+        }
+
+        .footer1 .right {
+            margin-top: 8px;
+        }
+    }
 }
