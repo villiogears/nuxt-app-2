@@ -1,6 +1,6 @@
 <template>
     <NuxtPage />
-    <NuxtApp />
+    <defineNuxtComponent />
     <UButton color="secondary" variant="subtle" label="Button" />
 </template>
 
