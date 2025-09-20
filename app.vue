@@ -1,5 +1,5 @@
 <template>
     <NuxtPage />
-    <elphadeal />
+    <!-- <elphadeal /> -->
     <header1 />
 </template>
