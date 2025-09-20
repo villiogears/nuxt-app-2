@@ -4,9 +4,6 @@
             ボタン
         </button>
     </div>
-    <header class="center1">
-        
-    </header>
 </template>
 
 <script lang="ts">
