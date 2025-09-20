@@ -5,7 +5,7 @@
         </button>
     </div>
     <header class="center1">
-
+        
     </header>
 </template>
 
