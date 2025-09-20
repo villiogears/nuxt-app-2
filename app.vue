@@ -1,4 +1,4 @@
 <template>
     <NuxtPage />
-    <div></div>
+    <div class=""></div>
 </template>
