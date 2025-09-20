@@ -30,6 +30,7 @@
   font-family: "DotGothic16", sans-serif;
   font-weight: 400;
   font-style: normal;
+  text-align: center;
 }
 
 
@@ -58,7 +59,7 @@
     /* Left / right groups inside footer */
     .footer1 .left,
     .footer1 .right {
-        display: flex;
+        /* display: flex; */
         align-items: center;
         gap: 12px;
     }
@@ -87,7 +88,7 @@
 
     /* Optional small logo/icon */
     .footer1 .logo {
-        display: inline-flex;
+        /* display: inline-flex; */
         align-items: center;
         gap: 8px;
         font-weight: 600;
