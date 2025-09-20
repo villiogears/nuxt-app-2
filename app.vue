@@ -1,4 +1,4 @@
 <template>
     <NuxtPage />
-    <div class=""></div>
+    <UButton color="secondary" variant="subtle">Button</UButton>
 </template>
