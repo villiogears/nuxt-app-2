@@ -4,8 +4,8 @@
             ボタン
         </button>
     </div>
-    <header>
-        
+    <header class="center1">
+
     </header>
 </template>
 
