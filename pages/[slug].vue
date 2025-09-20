@@ -7,5 +7,6 @@ const { data: post } = await useAsyncData(`/${slug}`, () => {
 
 <template>
   <!-- Render the blog post as Prose & Vue components -->
+   <NuxtPage />
   <ContentRenderer :value="post" />
 </template>
