@@ -1,3 +1,5 @@
 <template>
-    <div></div>
+    <div class="center4">
+
+    </div>
 </template>
