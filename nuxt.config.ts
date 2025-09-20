@@ -4,10 +4,11 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   css: ["~/assets/css/main.css"],
     ui: {
-    prefix: 'Nuxt'
-  },
-    ui: {
-    colorMode: false
+    prefix: 'Nuxt',
+    colorMode: false,
+    theme: {
+      colors: ['primary', 'error']
+    },
   },
   modules: [
     '@nuxt/content',
