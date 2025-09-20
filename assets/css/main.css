@@ -21,3 +21,7 @@
     font-family: 'Acme', sans-serif;
 
 }
+
+:root {
+    background: linear-gradient(to bottom right, rgb(0, 0, 0), rgb(255, 169, 183));
+}
