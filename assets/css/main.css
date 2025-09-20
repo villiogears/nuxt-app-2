@@ -23,5 +23,5 @@
 }
 
 :root {
-    background: linear-gradient(to bottom right, rgb(0, 0, 0), rgb(255, 169, 183));
+    background: linear-gradient(70deg, rgb(0, 0, 0), rgb(255, 169, 183), rgb(0, 0, 0));
 }
