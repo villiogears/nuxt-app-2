@@ -6,6 +6,9 @@ export default defineNuxtConfig({
     ui: {
     prefix: 'Nuxt'
   },
+    ui: {
+    colorMode: false
+  },
   modules: [
     '@nuxt/content',
     '@nuxt/eslint',
