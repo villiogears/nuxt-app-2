@@ -4,6 +4,9 @@
             ボタン
         </button>
     </div>
+    <header>
+        
+    </header>
 </template>
 
 <script lang="ts">
