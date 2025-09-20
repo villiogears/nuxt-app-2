@@ -1,6 +1,6 @@
 <template>
-  <div>
-    <NuxtButton color="secondary" variant="outline" label="Button" />
+  <div class="color_blue">
+    <NuxtButton variant="outline" label="Button" />
   </div>
 </template>
 
