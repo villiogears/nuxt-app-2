@@ -1,7 +1,7 @@
 <template>
   <div class="bg-white dark:bg-gray-900 text-gray-900 dark:text-white">
     <!-- Hero Section -->
-    <section class="bg-gray-100 dark:bg-gray-800">
+    <section class="bg-gray-100 dark:bg-gray-800 cyan1">
       <div class="container mx-auto px-4 py-20 text-center">
         <h1 class="text-4xl md:text-6xl font-bold tracking-tight">
           elphadeal

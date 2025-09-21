@@ -161,3 +161,7 @@
     *::-webkit-scrollbar-corner{
         background: transparent;
     }
+
+    .cyan1 {
+        background-image: url("shisoutsuyoi.svg");
+    }
