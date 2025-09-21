@@ -33,15 +33,17 @@
         <h2 class="text-3xl font-bold text-center mb-8">My Projects</h2>
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           <!-- Project Card 2 -->
-          <NuxtCard>
-            <template #header>
-              <h3 class="text-xl font-semibold">Project Two</h3>
-            </template>
-            <p class="text-gray-600 dark:text-gray-300">A brief description of the project goes here. Explain the purpose and the technologies used.</p>
-            <template #footer>
-              <NuxtLink to="#" class="text-primary hover:underline">View Project &rarr;</NuxtLink>
-            </template>
-          </NuxtCard>
+        <div class="flex justify-center">
+            <NuxtCard class="max-w-sm w-full center5 text-center">
+                <template #header>
+                    <h3 class="text-xl font-semibold">Project Title</h3>
+                </template>
+                <p class="text-gray-600 dark:text-gray-300">A brief description of the project goes here. Explain the purpose and the technologies used.</p>
+                <template #footer>
+                    <NuxtLink to="#" class="text-primary hover:underline inline-block mt-4">View Project &rarr;</NuxtLink>
+                </template>
+            </NuxtCard>
+        </div>
         </div>
       </div>
     </section>
