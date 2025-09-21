@@ -1,5 +1,5 @@
-<template>
-  <div class="bg-white dark:bg-gray-900 text-gray-900 dark:text-white">
+<template class="cyan1">
+  <div class="bg-white dark:bg-gray-900 text-gray-900 dark:text-white cyan1">
     <!-- Hero Section -->
     <section class="bg-gray-100 dark:bg-gray-800 cyan1">
       <div class="container mx-auto px-4 py-20 text-center">
@@ -18,7 +18,7 @@
     </section>
 
     <!-- About Section -->
-    <section id="about" class="container mx-auto px-4 py-16">
+    <section id="about" class="container mx-auto px-4 py-16 cyan1">
       <div class="max-w-3xl mx-auto text-center">
         <h2 class="text-3xl font-bold">About Me</h2>
         <p class="mt-4 text-gray-600 dark:text-gray-300">
@@ -28,7 +28,7 @@
     </section>
 
     <!-- Skills Section -->
-    <section id="skills" class="container mx-auto px-4 py-16">
+    <section id="skills" class="container mx-auto px-4 py-16 cyan1">
         <h2 class="text-3xl font-bold text-center mb-8">My Skills</h2>
         <div class="max-w-4xl mx-auto">
             <div class="flex flex-wrap justify-center gap-4">
