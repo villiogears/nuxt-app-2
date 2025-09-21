@@ -1,5 +1,5 @@
 <template class="cyan1">
-  <div class="bg-white dark:bg-gray-900 text-gray-900 dark:text-white cyan1">
+  <div class="dark:bg-gray-900 text-gray-900 dark:text-white cyan1">
     <!-- Hero Section -->
     <section class="bg-gray-100 dark:bg-gray-800 cyan1">
       <div class="container mx-auto px-4 py-20 text-center">
@@ -45,7 +45,7 @@
     </section>
 
     <!-- Contact Section -->
-    <section id="contact" class="bg-gray-50 dark:bg-gray-800 py-16">
+    <section id="contact" class="bg-gray-50 dark:bg-gray-800 py-16 cyan1">
       <div class="container mx-auto px-4">
         <div class="max-w-xl mx-auto">
         </div>
