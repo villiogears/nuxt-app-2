@@ -32,10 +32,10 @@
       <div class="container mx-auto px-4">
         <h2 class="text-3xl font-bold text-center mb-8">My Projects</h2>
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          <!-- Project Card 1 -->
+          <!-- Project Card 2 -->
           <NuxtCard>
             <template #header>
-              <h3 class="text-xl font-semibold">Project One</h3>
+              <h3 class="text-xl font-semibold">Project Two</h3>
             </template>
             <p class="text-gray-600 dark:text-gray-300">A brief description of the project goes here. Explain the purpose and the technologies used.</p>
             <template #footer>
