@@ -129,8 +129,8 @@
     /* Custom scrollbar */
     :root{
         --scrollbar-bg: rgba(255,255,255,0.03);
-        --scrollbar-thumb: rgb(0,128,255);
-        --scrollbar-thumb-hover: rgb(0,100,220);
+        --scrollbar-thumb: rgb(0, 255, 115);
+        --scrollbar-thumb-hover: rgb(0, 255, 115);
         --scrollbar-size: 10px;
     }
 
