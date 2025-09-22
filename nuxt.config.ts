@@ -17,7 +17,8 @@ export default defineNuxtConfig({
     '@nuxt/scripts',
     '@nuxt/test-utils',
     '@nuxt/ui',
-    '@nuxtjs/sitemap'
+    '@nuxtjs/sitemap',
+    '@vite-pwa/nuxt'
   ],
   app: {
     head: {
